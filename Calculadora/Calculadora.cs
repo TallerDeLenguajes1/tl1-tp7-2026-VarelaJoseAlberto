@@ -1,6 +1,6 @@
 namespace EspacioCalculadora;
 
-class Calculadora
+public class Calculadora
 {
     private double dato;
 
@@ -9,7 +9,7 @@ class Calculadora
         dato += termino;
     }
 
-    public void Resta(double termino)
+    public void Restar(double termino)
     {
         dato -= termino;
     }
